@@ -1,5 +1,5 @@
 ### Loadstring
 ```lua
-Coming soon...
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MMoonDzn/BHScriptLoader/main/ByMMoonDzn/Source.lua"))()
 
 ```
