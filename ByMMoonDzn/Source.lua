@@ -10,11 +10,11 @@ Text = "By: mmoondzn | MMoonZim";
 Duration = 5; 
 })
 wait(2)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
 wait()
 game.StarterGui:SetCore("SendNotification", {
-Title = "IceHub Loaded"; 
-Text = "By: IceMael"; 
+Title = "JulHub Loaded"; 
+Text = "By: JulHubz"; 
 Duration = 3; 
 })
 wait()
