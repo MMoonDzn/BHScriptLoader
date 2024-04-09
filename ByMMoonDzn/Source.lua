@@ -25,6 +25,7 @@ Title = "Infinite Yield";
 Text = "By: EdgeIY"; 
 Duration = 3;
 })
+--[[
 wait()
 local IsDevelopmentBranch,NotificationTime = false,5
 local Branch = IsDevelopmentBranch and "development" or "main"
@@ -36,3 +37,4 @@ Title = "ESP";
 Text = "By: AlexR32"; 
 Duration = 3;
 })
+--]]
