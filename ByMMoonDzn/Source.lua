@@ -10,31 +10,8 @@ Text = "By: mmoondzn | MMoonZim";
 Duration = 5; 
 })
 wait(1)
-loadstring(game:HttpGet('https://astroswrld.club/BetterRoblox/Loader'))()
-wait(2)
-local IsDevelopmentBranch,NotificationTime = false,5
-local Branch = IsDevelopmentBranch and "development" or "main"
-local Source = "https://raw.githubusercontent.com/AlexR32/Parvus/" .. Branch .. "/"
-loadstring(game:HttpGet(Source .. "Loader.lua"),"Loader")(Branch,NotificationTime)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/fuckusfm/infiniteyield-reborn/master/source'))()
 wait()
-game.StarterGui:SetCore("SendNotification", {
-Title = "ESP"; 
-Text = "By: AlexR32"; 
-Duration = 3;
-})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
 wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-wait()
-game.StarterGui:SetCore("SendNotification", {
-Title = "Infinite Yield"; 
-Text = "By: EdgeIY"; 
-Duration = 3;
-})
-wait(2)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
-wait()
-game.StarterGui:SetCore("SendNotification", {
-Title = "JulHub Loaded"; 
-Text = "By: JulHubz"; 
-Duration = 3; 
-})
+pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
