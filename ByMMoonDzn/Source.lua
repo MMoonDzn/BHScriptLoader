@@ -3,7 +3,7 @@
 -- | |\/| | | |\/| |  / _ \   / _ \  | '_ \    / /  | | | '_ ` _ \ 
 -- | |  | | | |  | | | (_) | | (_) | | | | |  / /_  | | | | | | | |
 -- |_|  |_| |_|  |_|  \___/   \___/  |_| |_| /____| |_| |_| |_| |_|
-
+wait(4)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Brookhaven Loader"; 
 Text = "By: mmoondzn | MMoonZim"; 
